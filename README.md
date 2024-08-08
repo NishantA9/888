@@ -145,3 +145,22 @@ const dangPrincipal = Principal.fromText("<REPLACE WITH TOKEN CANISTER ID>");
 ```
 
 From the Course: The Complete Web Developer Bootcamp 2024 by Angela Yu, tested by Nishant Acharekar
+
+# Front end
+
+![frontend](1.png)
+
+# Minting/Creating the NFT
+![creatingNFT](2.png)
+
+![createdNft](3.png)
+
+# My NFT AND SELLING NFT
+
+![MyNFT](4.png)
+![sellingNFT](5.png)
+![nftSelling](6.png)
+
+# Discover the NFT or Checking NFT list
+
+![DiscoverSellingNFT](7.png)
