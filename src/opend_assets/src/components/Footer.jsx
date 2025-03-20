@@ -19,7 +19,7 @@ function Footer() {
               </p>
             </Col>
             <Col>
-              <p>Copyright ⓒ {year}</p>
+              <p>Copyright ⓒ {year} by CryptoMiners</p>
             </Col>
           </Row>
         </Container>

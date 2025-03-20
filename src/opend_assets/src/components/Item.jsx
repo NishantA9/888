@@ -62,9 +62,9 @@ function Item(props) {
       }
     } else if (props.role == "discover") {
       const originalOwner = await opend.getOriginalOwner(props.id);
-      if (originalOwner.toText() != CURRENT_USER_ID.toText()) {
-        setButton(<Button handleClick={handleBuy} text={"Buy"} />);
-      }
+      // if (originalOwner.toText() != CURRENT_USER_ID.toText()) {
+      //   setButton(<Button handleClick={handleBuy} text={"Buy"} />);
+      // }
 
       const price = await opend.getListedNFTPrice(props.id);
       setPriceLabel(<PriceLabel sellPrice={price.toString()} />);
