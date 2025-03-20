@@ -12,7 +12,7 @@
 
 ## Project Overview
 
-**NOTE** The project is still under development so please don't try to run this project for now as the final readme.md file would be different than this one, you can refer the code for now.
+**NOTE:** The project is still under development so please don't try to run this project for now as the final readme.md file would be different than this one, you can refer the code for now.
 
 This project is a **Decentralized NFT Marketplace** built on the **Internet Computer (ICP) blockchain** using **Motoko** for smart contracts and **React.js** for the frontend. The platform enables users to **mint, buy, sell, and trade NFTs** while ensuring secure transactions and decentralized ownership. 
 
