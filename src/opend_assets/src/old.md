@@ -32,7 +32,7 @@ dfx canister call nft getName
 dfx canister call nft getOwner
 dfx canister call nft getAsset
 
-dft identity get-principal
+dfx identity get-principal
 
 3. Deploy canisters
 
@@ -116,6 +116,10 @@ dfx canister call opend listItem '(principal "<REPLACE WITH NFT CANISTER ID>", 2
 
 dfx canister call opend listItem '(principal "renrk-eyaaa-aaaaa-aaada-cai", 2)'
 
+rdmx6-jaaaa-aaaaa-aaadq-cai
+
+dfx canister call opend listItem '(principal "rdmx6-jaaaa-aaaaa-aaadq-cai", 2)'
+
 ```
 
 3. Get OpenD canister ID:
@@ -133,6 +137,15 @@ dfx canister call <REPLACE WITH NFT CANISTER ID> transferOwnership '(principal "
 
 
 dfx canister call renrk-eyaaa-aaaaa-aaada-cai transferOwnership '(principal "ryjl3-tyaaa-aaaaa-aaaba-cai", true)'
+ryjl3-tyaaa-aaaaa-aaaba-cai
+
+dfx canister call ryjl3-tyaaa-aaaaa-aaaba-cai transferOwnership '(principal "renrk-eyaaa-aaaaa-aaada-cai", true)'
+
+
+dfx canister call rdmx6-jaaaa-aaaaa-aaadq-cai transferOwnership '(principal "ryjl3-tyaaa-aaaaa-aaaba-cai", true)'
+
+
+
 
 ```
 
